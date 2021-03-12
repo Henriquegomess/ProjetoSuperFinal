@@ -1,0 +1,124 @@
+* {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #141417;
+}
+
+.home-content{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.left-columm{
+    float: left;
+    width: 75%;
+}
+
+.titulo{
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.next-game{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 234px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.times-sugeridos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.times-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 234px;
+    width: 420px;
+    background-color: #1B1B1F;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: -50px;
+}
+
+.ver-time{
+    background-color: #0BB659;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border: 2px solid #0BB659;
+    margin-top: 50px;
+    margin-bottom: -45px;
+}
+
+.times-box:hover{
+    transition: 0.2;
+    box-shadow: 0 0 1rem#1B1B1F;
+    transform: scale(1.05);
+}
+
+.rodada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #28282E;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.rodada:hover{
+    transition: 0.2;
+    box-shadow: 0 0 1rem #28282E;
+    transform: scale(1.05);
+}
+
+.jogadores-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: #1B1B1F;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: -210px;
+}
+
+#btn-more-details{
+    margin-top: 220px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
